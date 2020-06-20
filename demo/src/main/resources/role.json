@@ -1,0 +1,30 @@
+{
+  "user_administrator": {
+    "prefix": "user",
+    "paths": [
+      "add",
+      "delete",
+      "reset/pwd",
+      "modify/info",
+      "get/info",
+      "query"
+    ],
+    "belong2": [
+      0
+    ]
+  },
+  "course_administrator": {
+    "prefix": "course",
+    "paths": [
+      "add",
+      "delete",
+      "modify",
+      "query",
+      "get/info"
+    ],
+    "belong2": [
+      0,
+      1
+    ]
+  }
+}
